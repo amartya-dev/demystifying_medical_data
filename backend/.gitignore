@@ -312,3 +312,6 @@ test-reports/web_article_diet_plan_summary.html-summary-log.txt
 test-reports/wikipedia_breast_cancer.html-processed.txt
 test-reports/wikipedia_breast_cancer.html-raw.txt
 test-reports/wikipedia_breast_cancer.html-summary-log.txt
+
+# Saved models
+app/saved_models/

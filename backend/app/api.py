@@ -121,6 +121,7 @@ async def execute_pipeline(
                 raise HTTPException(400, detail=msg)
         else:
             raw_text = execution_request.text or ""
+            url = execution_request.url
             meta = execution_request.meta or {}
 
         # Execute selected pipeline with input text
@@ -128,9 +129,7 @@ async def execute_pipeline(
         # EXECUTE
         #
         response = pipeline.execute(
-            text=raw_text,
-            meta=meta,
-            settings=settings,
+            text=raw_text, meta=meta, settings=settings, url=url
         )
 
         """log.info(

@@ -1,7 +1,8 @@
 import os
 import app
 import logging
-import requests
+
+# import requests
 import stanza
 from spacy.language import Language
 from spacy.tokens import Doc

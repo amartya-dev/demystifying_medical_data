@@ -85,6 +85,7 @@ class PIPELINE_STAGES(object):
     MERGE_NOUN_CHUNKS = "merge_noun_chunks"
     MERGE_ENTITIES = "merge_entities"
     HEALTH_ANALYZER = "health_analyzer"
+    CREDIBILITY_SCORE = "credibility_score"
     READABILITY = "readability"
     REPORT_COLLECTOR = "report_collector"
     STORY_GENERATOR = "story_generator"
